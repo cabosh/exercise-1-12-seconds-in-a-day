@@ -5,7 +5,7 @@ In the exercise template, implement a program that asks the user for the number 
 In the course material, we learned to read an input in the following manner:
 
 ```python
-number = int(input('Give a number:')
+number = int(input('Give a number:'))
 ```
 
 Examples of expected output:
