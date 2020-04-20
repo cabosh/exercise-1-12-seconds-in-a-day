@@ -12,18 +12,18 @@ Examples of expected output:
 
 ```plaintext
 How many days would you like to convert to seconds?
-1
+*1*
 86400
 ```
 
 ```plaintext
 How many days would you like to convert to seconds?
-3
+*3*
 259200
 ```
 
 ```plaintext
 How many days would you like to convert to seconds?
-7
+*7*
 604800
 ```
