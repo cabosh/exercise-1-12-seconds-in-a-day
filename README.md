@@ -1,35 +1,29 @@
-# Exercise 1.11 - Different Types of Input
+# Exercise 1.12 - Seconds in a day
 
-Write a program that asks the user for a string, an integer, a floating-point number, and a boolean. The program should then print the values given by the user.
+In the exercise template, implement a program that asks the user for the number of days. After that, the program prints the number of seconds in the given number of days.
 
-Example prints for the program can be seen below.
+In the course material, we learned to read an input in the following manner:
 
 ```python
-Give a string:
-*bye-bye*
-Give an integer:
-*11*
-Give a float:
-*4.2*
-Give a boolean:
-*True*
-You gave the string bye-bye
-You gave the integer 11
-You gave the float 4.2
-You gave the boolean True
+number = int(input('Give a number:')
+```
+
+Examples of expected output:
+
+```plaintext
+How many days would you like to convert to seconds?
+1
+86400
 ```
 
 ```plaintext
-Give a string:
-*Oops!*
-Give an integer:
-*-4*
-Give a float:
-*3200.1*
-Give a boolean:
-*False*
-You gave the string Oops!
-You gave the integer -4
-You gave the float 3200.1
-You gave the boolean False
+How many days would you like to convert to seconds?
+3
+259200
+```
+
+```plaintext
+How many days would you like to convert to seconds?
+7
+604800
 ```
